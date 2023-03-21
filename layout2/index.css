@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: rgb(197, 194, 194);
+}
+header{
+    height: 100px;
+}
+section{
+    height: 250px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+section:first-of-type{
+}
+section:nth-child(3){
+    width: 30%;
+    float: left;
+}
+section:last-of-type{
+}
+footer{
+color: wheat;
+height: 190px;
+border: 1px solid black;
+}
